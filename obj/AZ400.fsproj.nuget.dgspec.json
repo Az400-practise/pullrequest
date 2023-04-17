@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vedant.kolarkar\\Desktop\\AZ400\\AZ400.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vedant.kolarkar\\Desktop\\AZ400\\AZ400.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vedant.kolarkar\\Desktop\\AZ400\\AZ400.fsproj",
+        "projectName": "AZ400",
+        "projectPath": "C:\\Users\\vedant.kolarkar\\Desktop\\AZ400\\AZ400.fsproj",
+        "packagesPath": "C:\\Users\\vedant.kolarkar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vedant.kolarkar\\Desktop\\AZ400\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vedant.kolarkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PG-PSDC/bc89e504-53ed-4b5c-999d-1823ce5a23cc/_packaging/MIMS/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PG-PSSSRnD/PGGI-Digital/_packaging/MIMS_Builds/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/PG-TEST/Vedantt/_packaging/axa/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Vedant-ASP-Project/_packaging/Artifact-Feed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Vedant-ASP-Project/_packaging/Vedant-ASP-Project/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.28, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
